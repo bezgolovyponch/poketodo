@@ -1,19 +1,13 @@
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import { addTodo, deleteTodo } from '@/redux/todo/todoSlice'
 import {
-    TextField,
-    Button,
-    List,
-    ListItem,
-    ListItemText,
-    ListItemSecondaryAction,
-    IconButton,
-    Typography,
+    Button, IconButton, List,
+    ListItem, ListItemSecondaryAction, ListItemText, TextField
 } from '@material-ui/core'
 import DeleteIcon from '@mui/icons-material/Delete'
-import { styled, useTheme } from '@mui/system'
 import { Container, Grid, Paper } from '@mui/material'
+import { styled } from '@mui/system'
+import { useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 const StyledContainer = styled(Container)(({ theme }) => ({
     marginTop: theme.spacing(4),

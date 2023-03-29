@@ -6,7 +6,7 @@ import * as path from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'C:/users/olgan/documents/web1it/src')
+      '@': path.resolve(__dirname, '/src')
     }
   },
   plugins: [react()]
