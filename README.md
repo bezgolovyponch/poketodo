@@ -1,4 +1,8 @@
 # Practice task
+
+[Live Site](https://clever-jelly-cad347.netlify.app/)
+
+
 ## TODO app with pages:
 ### 
 Create a todo app,
