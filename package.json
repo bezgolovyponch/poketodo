@@ -19,6 +19,7 @@
     "@mui/lab": "^5.0.0-alpha.118",
     "@mui/material": "^5.11.15",
     "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/styles": "^5.11.13",
     "@mui/system": "^5.11.15",
     "@nivo/pie": "^0.80.0",
     "@reduxjs/toolkit": "^1.8.5",
