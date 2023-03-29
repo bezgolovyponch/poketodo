@@ -62,7 +62,7 @@ const PokemonList = () => {
         >
             <Grid className={classes.styledGrid} container spacing={2}>
                 {pokemons.map((pokemon, index) => (
-                    <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                    <Grid item xs={6} sm={6} md={4} lg={3} key={index}>
                         <Card className={classes.styledCard} onClick={() => handleCardClick(pokemon)}>
                             <CardMedia component="img" image={pokemon.image} alt={pokemon.name} />
                             <CardContent>
