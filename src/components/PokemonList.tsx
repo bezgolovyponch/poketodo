@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { Grid, Button, Typography, Card, CardContent, CardMedia, Modal } from '@mui/material'
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@mui/styles'
 import { fetchPokemons } from '@/redux/pokemonSlice'
 import PokemonCard from './PokemonCard'
 
