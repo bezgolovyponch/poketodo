@@ -33,7 +33,7 @@ const pokemonsSlice = createSlice({
             })
             .addCase(fetchPokemons.fulfilled, (state, action) => {
                 state.status = 'succeeded'
-                state.data = action.payload
+                state.data = [...state.data, ...action.payload]
             })
             .addCase(fetchPokemons.rejected, (state, action) => {
                 state.status = 'failed'
